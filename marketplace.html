@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CowBreedRevive Marketplace</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="common.css">
+</head>
+<body onload="new WOW().init();">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="CowBreedRevive">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about_us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="education.html">Education & Awareness</a></li>
+                    <li class="nav-item"><a class="nav-link" href="community.html">Community Engagement</a></li>
+                    <li class="nav-item"><a class="nav-link" href="marketplace.html">Marketplace</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tools.html">Tools For Farmers</a></li>
+                </ul>
+            </div>
+            <div class="auth-buttons d-none d-lg-flex">
+                <button class="btn btn-donate"><a href="donate.html">Donate</a></button>
+                <button class="btn btn-signin"><a href="signIn.html">Sign in</a></button>
+                <button class="btn btn-register"><a href="signup.html">Register</a></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center text-center">
+        <h1>Empowering Farmers, Connecting Buyers, Sustaining Traditions!</h1>
+        <p>Buy, sell, and adopt native Indian cows, A2 milk, and organic products—directly from trusted sources.</p>
+        <div class="mt-4">
+            <a href="#listings" class="btn btn-success btn-lg btn-custom">Explore Listings</a>
+            <a href="#sell" class="btn btn-warning btn-lg btn-custom">Sell Your Products</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="container py-5">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card shadow feature-card">
+                    <h4><i class="fas fa-cow"></i> Buy & Sell Native Cows</h4>
+                    <p>Verified Sellers & Buyers with AI-powered breed recognition.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow feature-card">
+                    <h4><i class="fas fa-glass-whiskey"></i> A2 Milk & Dairy Products</h4>
+                    <p>Farm-to-consumer A2 milk, desi ghee, and more.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow feature-card">
+                    <h4><i class="fas fa-seedling"></i> Organic Farming & Byproducts</h4>
+                    <p>Eco-friendly cow dung-based fertilizers and natural pesticides.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Products Section -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Featured Products</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card product-card shadow">
+                    <img src="a2.jpg" class="card-img-top" alt="A2 Milk">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Fresh A2 Milk</h5>
+                        <p class="card-text">Pure and organic A2 milk directly from farmers.</p>
+                        <a href="#" class="btn btn-primary btn-custom">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card shadow">
+                    <img src="native.jpg" class="card-img-top" alt="Native Cow">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Native Cow</h5>
+                        <p class="card-text">Adopt or buy a native Indian cow to support conservation.</p>
+                        <a href="#" class="btn btn-primary btn-custom">Adopt Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card shadow">
+                    <img src="organic.jpg" class="card-img-top" alt="Organic Fertilizer">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Organic Fertilizer</h5>
+                        <p class="card-text">Natural cow dung-based fertilizer for healthy crops.</p>
+                        <a href="#" class="btn btn-primary btn-custom">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container text-center py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="stats-box">
+                    <h2>5,000+</h2>
+                    <p>Verified Farmers</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stats-box">
+                    <h2>10,000+</h2>
+                    <p>Successful Trades</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stats-box">
+                    <h2>15,000+</h2>
+                    <p>Happy Customers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="container py-5 text-center">
+        <h2 class="mb-4 fw-bold">How It Works</h2>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="step-box">
+                    <div class="icon-box">
+                        <i class="bi bi-person-check fs-3"></i>
+                    </div>
+                    <h5>Sign Up & Verify</h5>
+                    <p>Farmers & buyers register and verify identities for secure trading.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="step-box">
+                    <div class="icon-box">
+                        <i class="bi bi-list-task fs-3"></i>
+                    </div>
+                    <h5>List or Browse</h5>
+                    <p>AI-assisted listings ensure proper categorization of products.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="step-box">
+                    <div class="icon-box">
+                        <i class="bi bi-chat-dots fs-3"></i>
+                    </div>
+                    <h5>Connect & Trade</h5>
+                    <p>Chat, negotiate, and finalize deals securely with verified users.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="step-box">
+                    <div class="icon-box">
+                        <i class="bi bi-shield-check fs-3"></i>
+                    </div>
+                    <h5>Secure Payment</h5>
+                    <p>Multiple payment options with buyer/seller protection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- Footer Section -->
+<footer class="footer text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h5><i>VedicBreed</i></h5>
+                <p>Empowering sustainable farming through technology and community.</p>
+            </div>
+            <div class="col-md-3">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="marketplace.html">Marketplace</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 newsletter">
+                <h5>Newsletter</h5>
+                <p>Stay updated with our latest news and updates.</p>
+                <div class="d-flex">
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                    <button class="btn btn-dark">Subscribe</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5>Connect With Us</h5>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <p>&copy; 2024 VedicBreed. All rights reserved.</p>
+        </div>
+    </div>
+</footer>    
+
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="script.js"></script>
+    
+
+</body>
+</html>

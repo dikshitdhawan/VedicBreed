@@ -1,0 +1,131 @@
+
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+.btn-custom {
+    margin-left:10px ;
+    transition: all 0.3s ease-in-out;
+}
+.btn-custom:hover {
+    transform: scale(1.1);
+}
+.info-section {
+    padding: 50px 0;
+    background: #f8f9fa;
+}
+.info-img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.info-img:hover {
+    transform: scale(1.05);
+}
+.offer-section {
+    padding: 60px 0;
+    text-align: center;
+}
+.offer-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.offer-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.icon-box {
+    background: #e9ecef;
+    padding: 12px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.icon-box i {
+    font-size: 24px;
+    color: #333;
+}
+.testimonial-section {
+    padding: 60px 0;
+    text-align: center;
+}
+.testimonial-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.testimonial-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.testimonial-name {
+    font-weight: bold;
+}
+.testimonial-role {
+    font-size: 14px;
+    color: #777;
+}
+  /* Join Us Section */
+  .join-us {
+    background-color: rgb(63, 63, 63);
+    text-align: center;
+    padding: 60px 20px;
+}
+.join-us h2 {
+    font-weight: bold;
+    color: white;
+}
+.join-us p {
+    font-size: 18px;
+    color: #bbb;
+}
+.btn-custom {
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+}
+.btn-light-custom {
+    background-color: white;
+    color: black;
+    border: none;
+}
+.btn-outline-custom {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
+.btn-outline-custom:hover {
+    background-color: white;
+    color: black;
+}

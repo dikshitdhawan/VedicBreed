@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.smart-farming-section {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f9fa;
+}
+.smart-farming-text {
+    flex: 1;
+}
+.smart-farming-img {
+    flex: 1;
+    text-align: center;
+}
+.smart-farming-img img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.farmer-tools-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+.tool-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.tool-card:hover {
+    transform: translateY(-5px);
+}
+.icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.get-started-section {
+    text-align: center;
+    padding: 50px 0;
+}
+.form-container {
+    background: #f1f1f1;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+.btn-custom {
+    background: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.btn-custom:hover {
+    background: #333;
+}

@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.signin-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.signin-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.input-group {
+    border-radius: 5px;
+}
+
+.input-group-text {
+    background-color: #fff;
+    border-right: 0;
+}
+
+.input-group .form-control {
+    border-left: 0;
+}
+
+.toggle-password {
+    cursor: pointer;
+}
+
+.btn-dark {
+    background-color: black;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-dark:hover {
+    background-color: #333;
+}
+
+.forgot-link {
+    display: block;
+    margin: 10px 0;
+    color: black;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+.social-login {
+    margin-top: 15px;
+}
+
+.social-login p {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.social-login .btn {
+    margin: 5px;
+    font-size: 1.2rem;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-login .btn:hover {
+    transform: scale(1.1);
+}
+
+.signup-text {
+    margin-top: 10px;
+}
+
+.signup-text a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
+
+.terms {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.terms a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .signin-box {
+        width: 90%;
+    }
+    
+    .social-login .btn {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+}
